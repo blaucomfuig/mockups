@@ -75,7 +75,7 @@ nav img {
     display: block;
     padding: 2rem;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 2rem;
     transition: all ease 0.8s;
 }
 
@@ -100,10 +100,11 @@ nav img {
 
 header {
     grid-area: header;
+    height: 87vh;
 }
 
 .hero-container {
-    background: url(/images/header.jpg);
+    background: url(./images/header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 55%;
@@ -128,7 +129,10 @@ header {
 }
 
 .about-us {
+    display: grid;
+    align-content: center;
     grid-area: about-us;
+    height: 100vh;
 }
 
 .grid-about {
@@ -143,6 +147,7 @@ header {
     text-align: justify;
     line-height: 2.5rem;
     position:relative;
+    font-size: 1.5rem;
 }
 
 .grid-about-item h3 {
@@ -157,6 +162,12 @@ header {
     height: 100%;
     object-fit: cover;
     object-position: left;
+}
+.grid-specialization {
+    display: grid;
+    height: 100%;
+    justify-content: space-around;
+    align-content: stretch;
 }
 
 .grid-special-item figcaption {
